@@ -6,7 +6,7 @@ import './home.css';
 const TimeLine=(props)=>{
     return(
         <>
-        <ul className="stepper stepper-vertical">
+        <ul className="stepper stepper-vertical ">
                       <li className="completed"><a style={{textDecoration: "none"}} href="/">
                           <span className="circle">
                               <FontAwesome className="fas fa-briefcase"/>
