@@ -357,7 +357,9 @@
      flex-wrap: wrap;
      align-items: center;
      justify-content: space-evenly;
-     margin: 5%;
+     margin: 4% 5% 0% 5%;
+     padding-left: 40px;
+     padding-right: 40px;
  }
  
  .portfolio-image-container {
@@ -462,3 +464,14 @@
      background: radial-gradient( circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%)
  }
  /* End Of Social Links */
+
+ /* Project Background*/
+
+ .projectbg{
+     height: 100%;
+     padding-top: 1px;
+    background: url("https://tms-outsource.com/site/templates/assets/img/bg/switches_v2.svg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }

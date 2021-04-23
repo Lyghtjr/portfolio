@@ -3,38 +3,43 @@ import Footer from './Footer';
 import './home.css';
 import Project from './Project.jsx';
 
-const Projects=()=>{
-    return(
-    <>
-      <section id="portfolio" style={{marginTop:"80px"}}>
-			<h1 className="section-heading text-center mb-0">
-				<span style={{fontWeight:"300"}} >Projects</span>
-			</h1>
-            <hr style={{width:"60%"}}/>
-			<div className="portfolio-container mx-auto">
-				
-                <Project project="Fitness_App"/>
-                
-                <Project project="To_Do_Web"/>
-                
-                <Project project="Play_Snake"/>
-                
-                <Project project="E_Learning_React"/>
-                
-                <Project project="Car-Racing"/>
-                
-                <Project project="Pokemon_UI"/>
+const Projects = () => {
+    return (
+        <>
+            <section id="portfolio" style={{ marginTop: "80px" }}>
+                <h1 className="section-heading text-center mb-0">
+                    <span style={{ fontWeight: "300" }} >Projects</span>
+                </h1>
+                <hr style={{ width: "60%" }} />
+                <div className="projectbg">
+                    <div className="portfolio-container ">
+                        <Project project="Fitness_App" projecthref="https://github.com/Lyghtjr/Fitness_app" />
 
-                
-            </div>
-          
-			
+                        <Project project="To_Do_Web" projecthref="https://lyghtjr.github.io/TO_DO_WEB/" />
 
-			
-		</section>
+                        <Project project="Play_Snake" projecthref="https://github.com/Lyghtjr/play_snake" />
+                    </div>
+                </div>
+                <div className="projectbg">
+                    <div className="portfolio-container ">
+                        <Project project="E_Learning_React" projecthref=" https://lyghtjr.github.io/e_learning_react/" />
 
-        <Footer/>
-    </>
+                        <Project project="Car-Racing" projecthref="https://lyghtjr.github.io/Car-racing/" />
+
+                        <Project project="Pokemon_UI" projecthref="https://github.com/Lyghtjr/Pokemon_ui" />
+
+
+
+                    </div>
+                </div>
+
+
+
+
+            </section>
+
+            <Footer />
+        </>
     )
 }
 
