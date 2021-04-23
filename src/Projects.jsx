@@ -6,7 +6,7 @@ import Project from './Project.jsx';
 const Projects=()=>{
     return(
     <>
-      <section id="portfolio">
+      <section id="portfolio" style={{marginTop:"80px"}}>
 			<h1 className="section-heading text-center mb-0">
 				<span style={{fontWeight:"300"}} >Projects</span>
 			</h1>

@@ -1,9 +1,10 @@
 
  .bgattachedImage {
-     background-image: url("https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg");
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     height: 550px;
+    background-image: url("https://i.pinimg.com/originals/94/32/a5/9432a5208717ce65b29042a7d4d84262.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 600px;
  }
  
  
@@ -51,7 +52,7 @@
  }
  
  .Home_banner__fFRb6 {
-     height: 550px;
+     height: 600px;
      padding: 0 1rem;
      display: flex;
      flex-direction: column;
@@ -65,7 +66,7 @@
  
  @media screen and (min-width: 520px) {
      .Home_body__2gksT {
-         padding: 5rem;
+        padding: 5rem 5rem 0 5rem;
      }
  }
  
@@ -113,7 +114,7 @@
  
 @media screen and (min-width: 520px){
 .Home_body__2gksT {
-    padding: 5rem;
+    padding: 5rem 5rem 0 5rem; 
 }}
 
  @media screen and (min-width: 992px){

@@ -41,6 +41,7 @@ const Home=()=>{
           <hr style={{margin: "0px 10%"}}/>
               <div className="row">
                   <div className="col-md-12">
+                  <TimeLine position="InternShip" companyName="OpenCubicles Technologies Pvt Ltd." duration="April 2021- Present" />
                   <TimeLine position="InternShip" companyName="HenryHarvin India" duration="December 2020 - Februray 2021" />
                   <TimeLine position="Under Graduation" companyName="Dronacharya College Of Engineering" duration="August 2018 - Current"/>
                   <TimeLine position="Senior Secondary" companyName="Bala Pritam Guru Harkishan International Public School" duration="2016 - 2018"/>

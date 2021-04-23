@@ -9,7 +9,7 @@ const NavBar=()=>{
         <div >
             <div >
                 <div >
-                    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav className="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top scrolling-navbar Navbar_bgDark__3RVsz top-nav-collapse">
                         <NavLink className="navbar-brand mx-auto" exact to="/" style={{padding:"10px",fontFamily:"'Berkshire Swash',cursive",fontSize:"1.8rem"}}>LyghtJr</NavLink>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
