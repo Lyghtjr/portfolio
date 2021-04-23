@@ -6,10 +6,10 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 const NavBar=()=>{
     return (
         <>
-        <div className="col-12">
-            <div className="row">
-                <div className="col-12">
-                    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div >
+            <div >
+                <div >
+                    <nav className="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top scrolling-navbar Navbar_bgDark__3RVsz top-nav-collapse">
                         <NavLink className="navbar-brand mx-auto" exact to="/" style={{padding:"10px",fontFamily:"'Berkshire Swash',cursive",fontSize:"1.8rem"}}>LyghtJr</NavLink>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@ const NavBar=()=>{
                         <div className="Collapse navbar-collapse " id="navbarSupportedContent">
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item active">
-                                    <NavLink className="nav-link" exact activeClassName="menu_active" to="/portfolio">Home <span className="sr-only">(current)</span></NavLink>
+                                    <NavLink className="nav-link" exact activeClassName="menu_active" to="/">Home <span className="sr-only">(current)</span></NavLink>
                                 </li>
                                 <li className="nav-item ">
                                     <NavLink className="nav-link" exact activeClassName="menu_active" to="/projects">Projects </NavLink>

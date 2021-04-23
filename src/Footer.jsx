@@ -39,29 +39,35 @@ const Footer = () => {
                     </div>
                     <hr className="clearfix d-md-none rgba-white-light" style={{ margin: "10% 15% 5%" }} />
 
-                        
-    <div className="social-links mt-3 ">
-      <ul className="row col-4 mx-auto" >
-        <li className="facebook">
-          <a  href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-        </li>
-        <li className="instagram">
-          <a href="#" ><i className="fa fa-instagram" aria-hidden="true"></i></a>
-        </li>
-        <li className="linkedin">
-          <a href="#" ><i className="fa fa-linkedin" aria-hidden="true"></i></a>
-        </li>
-        <li className="youtube">
-          <a href="#" ><i className="fa fa-youtube-play" aria-hidden="true"></i></a>
-        </li>
-        <li className="whatsapp">
-          <a href="#" ><i className="fa fa-whatsapp" aria-hidden="true"></i></a>
-        </li>
-        
-      </ul>
-</div>
+                    <div>
+          <div className="col-md-4 mx-auto">
+            <div className="social-links">
+              <ul className="row">
+                <li className="facebook">
+                  <a href="#"
+                    ><FontAwesome className="fa fa-facebook" aria-hidden="true"/>
+                  </a>
+                </li>
+                <li className="linkedin">
+                  <a href="#"><FontAwesome className="fa fa-linkedin" aria-hidden="true"/> </a>
+                </li>
+                <li className="youtube">
+                  <a href="#"><FontAwesome className="fa fa-youtube-play" aria-hidden="true"/>
+                  </a>
+                </li>
+                <li className="instagram">
+                  <a href="#"><FontAwesome className="fa fa-instagram" aria-hidden="true"/> </a>
+                </li>
+                <li className="whatsapp">
+                  <a href="#"><FontAwesome className="fa fa-whatsapp" aria-hidden="true"/> </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-                </div>
+
+</div>
                 <div className="footer-copyright text-center py-3" >© 2021 Copyright:
                 <a href="/"> Abhinav </a>
                 <br/>

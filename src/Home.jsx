@@ -8,10 +8,13 @@ import Skills from './Skills';
 import abhi from './images/img1.jpeg';
 import Footer from './Footer.jsx';
 
+
 const Home=()=>{
     return (
         <>
+       
 <div className="bgattachedImage">
+
 <div className="text-white text-center rgba-stylish-strong Home_banner__fFRb6">
     <h5 className="h5 primary-colour">
         <FontAwesome className="fas fa-briefcase mr-1"/>
@@ -26,26 +29,26 @@ const Home=()=>{
    ></span>
  </h1>
  </div>
- <div className="col-6 mx-auto mt-3">
- <p><FontAwesome className="fas fa-quote-left"/>Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.<FontAwesome className="fas fa-quote-right"/></p>
+ <div className="mb-2 pb-2 mt-2">
+ <p className="quotep_Dont mb-3"><FontAwesome className="fas fa-quote-left"/>Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.<FontAwesome className="fas fa-quote-right"/></p>
                      <a target="_blank" style={{textDecoration:"none",color:"#fff"}} className=" resumebtn primary-bgColour waves-effect waves-light" href="https://drive.google.com/file/d/1L-3JLCIuAW5VmGn2Zgs-3b2I50GAiyZD/view"><FontAwesome className="fas fa-clone left mr-1"/>
                              View Resume</a>
 </div></div>
 </div>
- <div className="Home_body__2gksT col-12 ">
-      <div className="row">
-      <div className="Home_mainBody__2p4-X col-7 mx-auto">
+ <div className="Home_body__2gksT ">
+      <div className="Home_mainBody__2p4-X ">
           <h1 className="mb-4 text-center secondary-colour font-weight-light">My Timeline</h1>
           <hr style={{margin: "0px 10%"}}/>
               <div className="row">
                   <div className="col-md-12">
+                  <TimeLine position="InternShip" companyName="OpenCubicles Technologies Pvt Ltd." duration="April 2021- Present" />
                   <TimeLine position="InternShip" companyName="HenryHarvin India" duration="December 2020 - Februray 2021" />
                   <TimeLine position="Under Graduation" companyName="Dronacharya College Of Engineering" duration="August 2018 - Current"/>
                   <TimeLine position="Senior Secondary" companyName="Bala Pritam Guru Harkishan International Public School" duration="2016 - 2018"/>
                   <TimeLine position="High School" companyName="Bala Pritam Guru Harkishan International Public School" duration="2014 - 2016" />
                   </div></div>
     </div>
-    <div className="Home_sideBody__2YMQ5 col-4 mx-auto">
+    <div className="Home_sideBody__2YMQ5 ">
         <div className="card testimonial-card mb-5">
             <div className="card-up secondary-bgColour lighten-1"></div>
             <div className="avatar mx-auto white">
@@ -53,7 +56,10 @@ const Home=()=>{
                 </div><div className="card-body">
                     <h4 className="card-title">Abhinav Rai</h4>
                     <hr/>
-                    <p>I am a passionate developer, I have an experience in front-end development, UI and I am currently exploring Backend Development,Native Development and AI.</p></div></div><div className="card mb-5"><h3 className="py-3 text-center">My Skills</h3>
+                    <p>I am a passionate developer, I have an experience in front-end development, UI and I am currently exploring Backend Development,Native Development and AI.</p></div></div>
+                    
+                    <div className="card mb-5">
+                      <h3 className="py-3 text-center">My Skills</h3>
                    <Skills skill="Languages" skill1="C Language" skill2="c+
                    +" skill3="Python" skill4="HTML" skill5="CSS" skill6="Java" skill7="Javascript" skill8="Dart"/>
                  
@@ -68,7 +74,7 @@ const Home=()=>{
                    <Skills skill="DataBase" skill1="MySql"/>
                  
                    <Skills skill="Operating System" skill1="Windows" skill2="Linux" Skill3="MacOs"/>
-                    </div></div></div></div>
+                    </div></div></div>
 
 
   <section id="portfolio">

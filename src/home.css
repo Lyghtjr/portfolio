@@ -1,16 +1,12 @@
 
  .bgattachedImage {
-     background-image: url("https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg");
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     height: 550px;
+    background-image: url("https://i.pinimg.com/originals/94/32/a5/9432a5208717ce65b29042a7d4d84262.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 600px;
  }
  
- @media screen and (min-width: 768px) {
-     .Home_banner__fFRb6 {
-         padding: 0 10rem;
-     }
- }
  
  .primary-colour {
      color: #f2a365;
@@ -56,7 +52,7 @@
  }
  
  .Home_banner__fFRb6 {
-     height: 550px;
+     height: 600px;
      padding: 0 1rem;
      display: flex;
      flex-direction: column;
@@ -70,10 +66,17 @@
  
  @media screen and (min-width: 520px) {
      .Home_body__2gksT {
-         padding: 5rem;
+        padding: 5rem 5rem 0 5rem;
      }
  }
  
+ .Home_body__2gksT {
+    width: 100%;
+    padding: 5rem 1rem 3rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
  .Home_mainBody__2p4-X {
      width: 100%;
  }
@@ -91,11 +94,54 @@
   }
  ul.stepper {
      padding: 0 1.5rem;
-     margin: 1em -1.5rem;
+     margin: 1em -1rem;
+     margin-right: 10px;
      overflow-x: hidden;
      overflow-y: hidden;
      counter-reset: section;
  }
+ @media screen and (max-width:991px){
+    .step-content h4{
+         font-size: 18px;
+         font-weight: 300;
+         width: 250px;
+     }
+     .step-content h6{
+         font-size: 15px;
+     }
+    
+ }
+ 
+@media screen and (min-width: 520px){
+.Home_body__2gksT {
+    padding: 5rem 5rem 0 5rem; 
+}}
+
+ @media screen and (min-width: 992px){
+.Home_mainBody__2p4-X {
+    flex: 1 1;
+    margin-right: 30px;
+}
+.Home_body__2gksT {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Home_sideBody__2YMQ5 {
+    width: 320px;
+}
+.quotep_Dont{
+    margin:0 16em;
+}
+}
+@media screen and (min-width: 1024px){
+.Home_banner__fFRb6 {
+    padding: 0 20rem;
+}
+}
+@media screen and (min-width: 768px){
+.Home_banner__fFRb6 {
+    padding: 0 10rem;
+}}
  
  .stepper-vertical {
      position: relative;
@@ -166,7 +212,7 @@
     height: 3px;
     background: #056;
     display: block;
-    margin: 20px 0 0 20px 5px;
+    margin: 20px 0 0 0;
     margin-top: 10px;
 }
  
@@ -204,12 +250,6 @@
      box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
  }
  
- .Home_body__2gksT {
-     width: 100%;
-     padding: 5rem 1rem 3rem;
-     display: flex;
-     flex-direction: column-reverse;
- }
  
  .testimonial-card .card-up {
      height: 120px;
