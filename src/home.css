@@ -229,9 +229,10 @@
  
  .stepper-vertical li .step-content {
      display: block;
-     padding: 0.94rem;
+     padding: 0.94rem 0.94rem 0 0.94em;
      margin-top: 0;
      margin-left: 3.13rem;
+     border-radius:15px;
  }
  
  .SkillsCard_badge__3sjqg {

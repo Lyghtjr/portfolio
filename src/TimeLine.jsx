@@ -16,7 +16,7 @@ const TimeLine=(props)=>{
                                       <h4>{props.companyName}</h4>
                                       <h6>{props.duration}</h6>
                                       <p>{props.workInformation}</p>
-                                      </div></li> </ul>
+                                      </div></li></ul>
         </>
     )
 }
